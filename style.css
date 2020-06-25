@@ -1,0 +1,35 @@
+.header {
+    background: #27273e ;
+}
+.header__inf-number {
+    color: #fff;
+}
+[title] {
+    color: #b12167;
+}
+.sitebar__item-title {
+    display: inline;
+}
+.footer {
+    background: #27273e ;
+}
+.footer__inf {
+    color: #FFF;
+}
+.socialnetworks__title {
+    color: #FFF;
+}
+.wrapper {
+    width: 1100px;   
+}
+body {
+    font-family: 'Special Elite', cursive;
+}
+.publications__item-icon {
+    border-radius: 100px;
+    height: 160px;
+    width: 160px;   
+}
+.subunit,.sitebar__item {
+    list-style: none;
+}
