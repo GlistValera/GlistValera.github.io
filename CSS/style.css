@@ -1,0 +1,255 @@
+.header {
+    background: #27273e ;
+}
+.header__inf-number {
+    color: #fff;
+}
+
+.header__inf-schedule {
+    color: #b12167;
+    font-size: 16px;
+}
+
+.sitebar__item-title {
+    display: inline;
+}
+
+.footer {
+    background: #27273e ;
+}
+
+.footer__inf,.socialnetworks__title {
+    color: #FFF;
+}
+
+.wrapper {
+    width: 1100px;
+}
+
+body {
+    font-family: 'Special Elite', cursive;
+    margin: 0;
+}
+
+.publications__item-icon {
+    border-radius: 100px;
+    height: 160px;
+    width: 160px;   
+}
+
+.subunit,.sitebar__item {
+    list-style: none;
+}
+
+.loftchool {
+    color: #fff;
+}
+
+body {
+    background: #fff;
+}
+
+.features__title,.subunit__item-title {
+    font-family: 'Special Elite', cursive;
+    font-weight: bold;
+    font-size: 36px;
+}
+
+.publications__item-date {
+    font-weight: lighter;
+    font-size: 12px;
+}
+
+.header__inf-number {
+    font-size: 20px;
+}
+
+.publications__item-title {
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.publications__item-text {
+    font-size: 14px;
+}
+
+.subunit__item-text,.subunit__item-list {
+    font-size: 13px;
+}
+
+.subunit__item-title {
+    font-size: 8px;
+}
+
+.subunit__item-icon {
+    width: 72px;
+    height: 72px;
+}
+
+.publications,.pages__switch {
+    list-style: none;
+}
+
+.triangle {
+    background-image: url("../img-coworking/main_icon-pink.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    color: #ef3c8b;
+    text-decoration: none;
+    width: 20px;
+    height: 20px;
+}
+
+.triangle:hover {
+    background-image: url("../img-coworking/main_icon.png");
+    color: #000;
+}
+
+.star{
+    background-image: url("../img-coworking/feed_icon.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    color: #ef3c8b;
+    text-decoration: none;
+    width: 20px;
+    height: 20px;
+}
+
+.star:hover {
+    background-image: url("../img-coworking/star-black.png");
+    color: #000;
+}
+
+.purse{
+    background-image: url("../img-coworking/wallet_icon.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    color: #ef3c8b;
+    text-decoration: none;
+    width: 20px;
+    height: 20px;
+}
+
+.purse:hover {
+    background-image: url("../img-coworking/wallet-black.png");
+    color: #000;
+}
+
+.socialnetworks__link {
+    list-style: none;
+}
+
+.socialnetworks__link-vk {
+    background-image: url("../img-coworking/vk.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 20px;
+    height: 20px;
+}
+
+.socialnetworks__link-vk:hover {
+    background-image: url("../img-coworking/vk-pink.png");
+}
+
+.socialnetworks__link-f {
+    background-image: url("../img-coworking/fb.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 20px;
+    height: 20px;
+}
+
+.socialnetworks__link-f:hover {
+    background-image: url("../img-coworking/fb-pink.png");
+}
+
+.socialnetworks__link-g {
+    background-image: url("../img-coworking/google.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 20px;
+    height: 20px;
+}
+
+.socialnetworks__link-g:hover {
+    background-image: url("../img-coworking/google-pink.png");
+}
+
+.socialnetworks__link-t {
+    background-image: url("../img-coworking/twitter.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 20px;
+    height: 20px;
+}
+
+.socialnetworks__link-t:hover {
+    background-image: url("../img-coworking/twitter-pink.png");
+}
+
+.socialnetworks__link-m {
+    background-image: url("../img-coworking/mail.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 20px;
+    height: 20px;
+}
+
+.socialnetworks__link-m:hover {
+    background-image: url("../img-coworking/mail-pink.png");
+}
+.pages__switch a {
+    color: black;
+    float: left;
+    padding: 8px 8px;
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: bold;
+}
+.pages__switch a:active {
+    background-color: black;
+    color: white;
+}
+
+.block {
+    background: green;
+    height: 100px;
+    width: 100px;
+    display: inline-block;
+}
+
+.block-f {
+    background: red;
+    height: 100px;
+    width: 100px;
+    display: inline-block;
+}
+
+.wrapper {
+    margin: auto;
+}
+
+.header__logo {
+    float: left;
+    margin-top: 13px;
+    margin-left: 19px;
+}
+
+.clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.header__inf-number {
+    margin-top: 22px;
+    margin-right: 21px;
+    margin-bottom: 0px;
+    float: right;
+}
+
+.header__inf-schedule {
+    margin-top: 47px;
+    margin-right: 8px;
+    float: right;
+}
