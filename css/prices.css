@@ -1,0 +1,207 @@
+.main-content {
+    margin-top: 67px;
+}
+
+/* Хлебные крошки */
+
+.breadcrumbs__list {
+    list-style: none;
+}
+
+.breadcrumbs__item {
+    display: inline-block;
+}
+
+.breadcrumbs__link {
+    color: #f06499;
+}
+
+.breadcrumbs__link_active {
+    color: #000;
+    text-decoration: none;
+}
+
+.breadcrumbs__link:before {
+    content: "/";
+}
+
+.breadcrumbs__link_none_slash::before {
+    content: none;
+}
+
+
+/* Тарифы */
+
+.prices__title {
+    font-size: 36px;
+    margin-left: 20px;
+    margin-top: 91px;
+    margin-bottom: 50px;
+}
+
+.prices__list {
+    padding-left: 0;
+}
+
+.prices__item {
+    display: inline-block;
+    width: 255px;
+    text-align: center;
+    vertical-align: top;
+    margin-left: 12.5px;
+    margin-right: 12.5px;
+    margin-bottom: 48px;
+}
+
+.prices__img-block {
+    position: relative;
+    width: 250px;
+    height: 153px;
+}
+
+.overlay {
+    position: absolute;
+    background: #27273e;
+    opacity: .85;
+    width: 250px;
+    height: 153px;
+    top: 0%;
+    left: 0%;
+}
+
+.item__title {
+    position: absolute;
+    color: #5dd1f8;
+    font-size: 20px;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    text-transform: uppercase;
+
+}
+
+.item__status {
+    position: absolute;
+    color: #ec1e79;
+    font-weight: bold;
+    font-size: 24px;
+    top: 17px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;   
+}
+
+.item__cost {
+    font-weight: bold;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    /* width: 200px; */
+}
+
+
+
+/* Партнеры */
+
+.partners__title {
+    font-size: 36px;
+    margin-top: 91px;
+    margin-bottom: 50px;
+}
+
+.partners__block {
+    width: 880px;
+}
+.partners__list {
+    list-style: none;
+    padding-left: 0;
+}
+
+.partners__item {
+    display: inline-block;
+    width: 180px;
+    height: 65px;
+    margin-right: 90px;
+    margin-bottom: 64px;
+
+}
+
+.partners__link {
+    display: inline-block;
+    width: 180px;
+    height: 65px;
+    background-position-x: center;
+    background-position-y: center;
+}
+
+.partners__link_logo-1 {
+    background: url("../img-new/logo-1.png") no-repeat;
+}
+
+.partners__link_logo-1:hover {
+    background-position: 0 -100px;
+}
+
+.partners__link_logo-2 {
+    background: url("../img-new/logo-2.png") no-repeat;
+}
+
+.partners__link_logo-2:hover {
+    background-position: 0 -100px;
+}
+
+.partners__link_logo-3 {
+    background: url("../img-new/logo-3.png") no-repeat;
+}
+
+.partners__link_logo-3:hover {
+    background-position: 0 -100px;
+}
+
+.partners__link_logo-4 {
+    background: url("../img-new/logo-4.png") no-repeat;
+}
+
+.partners__link_logo-4:hover {
+    background-position: 0 -100px;
+}
+
+.partners__link_logo-5 {
+    background: url("../img-new/logo-5.png") no-repeat;
+}
+
+.partners__link_logo-5:hover {
+    background-position: 0 -100px;
+}
+
+.partners__link_logo-6 {
+    background: url("../img-new/logo-6.png") no-repeat;
+}
+
+.partners__link_logo-6:hover {
+    background-position: 0 -100px;
+}
+
+/* .partners__link {
+    display: inline-block;
+    width: 180px;
+    height: 65px;
+    background-position-x: center;
+    background-position-y: center;
+}
+
+.partners__link_logo-1 {
+    background: url("../img-new/logo-1.png") no-repeat;
+}
+
+.partners__link_logo-1:hover {
+    background-position: 0 -100px;
+}
+
+.partners__link_logo-2 {
+    background: url("../img-new/logo-2.png") no-repeat;
+}
+
+.partners__link_logo-2:hover {
+    background-position: 0 -100px;
+} */
