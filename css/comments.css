@@ -1,0 +1,169 @@
+.discount {
+    height: 176px;
+    background-image: url("../img-new/pattern.png");
+    background-position: center;
+    background-repeat: repeat-x;
+    box-sizing: border-box;
+}
+
+.discount__text {
+    color: #fff;
+    width: 700px;
+    margin: 0 auto;
+    padding-top: 60px;   
+}
+
+.discount__text-color {
+    color: #ec1e79;
+}
+
+
+
+/* FORM */
+
+.form__title {
+    font-size: 49px;
+    font-weight: bold;
+}
+
+.form {
+    width: 560px;
+    height: 427px;
+    background: #f5f5f5;
+    margin: 0 auto;
+    margin-bottom: 50px;
+    margin-top: 57px;
+    padding: 70px;
+    padding-bottom: 0;
+}
+
+.form__title {
+    margin-bottom: 30px;
+}
+
+.data__list {
+    list-style: none;
+    padding-left: 0;
+    margin: 0;
+    margin-bottom: 25px;
+}
+
+.data__item {
+    display: inline-block;
+    vertical-align: top;
+    box-sizing: border-box;
+    width: 270px;
+    margin-right: 15px;
+}
+
+.data__item-title,
+.data__comment-title,
+.button__radio-title {
+    margin-bottom: 7px;
+}
+
+.data__item:last-child {
+    margin-right: 0;
+}
+
+.data__item-input {
+    width: 270px;
+    height: 45px;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    border: 1px solid white;
+    border-radius: 4px;
+    outline: none;
+}
+
+.data__item-input:focus {
+    border: 1px solid #ec1e79;
+}
+
+ .data__comment-area {
+    box-sizing: border-box;
+    width: 560px;
+    height: 90px;
+    border: 1px solid white;
+    border-radius: 5px;
+    margin-bottom: 25px;
+    outline: none;
+    resize: none;
+}
+
+.data__comment-area:focus {
+    border: 1px solid #ec1e79;
+}
+
+.button__radio {
+    display: inline-block;
+}
+
+.batton__radio-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.button__radio-item {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+
+
+
+/* Замена чекбокса у радио */
+
+
+.button__radio-key {
+    display: none;
+}
+
+.key__styling {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    border: 1px solid #cacaca;
+    border-radius: 50%;
+    vertical-align: bottom;
+    position: relative;
+}
+
+.key__styling::before {
+    display: block;
+    position: absolute;
+    content: "";
+    background: #ec1e79;
+    width: 8px;
+    height: 8px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
+    opacity: 0;
+    /* transition: .1s; */
+}
+
+.button__radio-key:checked + .key__styling::before {
+    opacity: 1;
+}
+
+.button__radio-key:checked + .key__styling {
+    border: 1px solid #ec1e79;
+}
+
+.button__submite {
+    display: inline-block;
+    width: 140px;
+    height: 47px;
+    margin: 0;
+    padding: 0;
+    background: #27273e;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    vertical-align: top;
+    transform: translateX(203px);
+}
