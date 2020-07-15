@@ -67,7 +67,7 @@ body {
 
 .header__schedule {
     color: #b12167;
-    font-size: 14px;
+    font-size: 12px;
     display: block;
     text-align: right;
     margin-right: 21px;
@@ -103,17 +103,16 @@ body {
     border-radius: 4px;
     text-align: center;
     opacity: 0;
-    top: 26px;
 }
 
 .dropdown__container::before {
     content: "";
     display: block;
-    height: 20px;
+    height: 15px;
     width: 100%;
     /* border: 1px solid red; */
     position: absolute;
-    top: -20px;
+    top: -15px;
     left: 0;
 }
 
@@ -402,15 +401,8 @@ body {
 
 .pages__title {
     display: inline-block;
-    width: 125px;
+    width: 110px;
     font-size: 14px;
-}
-
-.serial__number {
-    width: 15px;
-    margin-left: 0;
-    display: inline-block;
-    text-align: center;
 }
 
 .pages__switch {
